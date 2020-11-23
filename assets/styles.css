@@ -53,14 +53,14 @@ nav {
   width: 15px;
 }
 
-main{
-    align-content: center;
-    width: 70%;
-    display: flex;
-    flex-wrap: wrap;
+main {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
 }
 
-.heading{
-    padding-top: 25px;
-    font-style: italic;
+.heading {
+  padding-top: 25px;
+  font-style: italic;
 }

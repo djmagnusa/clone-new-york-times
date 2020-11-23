@@ -54,13 +54,81 @@ nav {
 }
 
 main {
-  margin: auto;
-  width: 50%;
-  border: 3px solid green;
-  padding: 10px;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .heading {
-  padding-top: 25px;
+
+  padding: 25px;
+  padding-left: 25px;
   font-style: italic;
+  font-size: 40px;
+}
+
+.home-img{
+    height: 500px;
+    width: 100%;
+}
+
+
+.graphic-container {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inflation-grid {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+}
+
+.inf-item {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  justify-content: center;
+}
+
+.inf-image {
+  /* width: 200px;
+  height: 150px; */
+  object-fit: cover;
+}
+
+.inf-text {
+  font-size: 11px;
+  line-height: 17px;
+  font-weight: 300;
+  color: black;
+}
+
+strong {
+  font-size: 14px;
+  font-weight: bolder;
+  color: black;
+}
+
+.graphic-divider {
+  width: 60px;
+  float: left;
+}
+
+.graphic-credit {
+  color: black;
+  font-weight: 300;
+  float: left;
+}
+
+article{
+ padding-top: 100px;
+}
+
+span{
+    color: grey;
+}
+
+.article{
+    padding-left: 100px;
+    padding-right: 100px;
 }
